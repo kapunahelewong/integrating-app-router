@@ -7,7 +7,8 @@ import DefaultErrorPage from "next/error";
 import { builder } from "@builder.io/sdk";
 
 // Replace with your Public API Key
-builder.init("2b5ffc858d74425485135b88d2fc307a");
+// For pages, this doesn't have to be here
+// builder.init("2b5ffc858d74425485135b88d2fc307a");
 
 // Define an interface for the BuilderPageProps object
 // with a `content` property type `any`
