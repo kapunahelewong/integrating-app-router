@@ -1,3 +1,4 @@
+// For pages and sections, goes in src/app/[[...page]/page.tsx]
 import { builder } from "@builder.io/sdk";
 import Head from "next/head";
 import { RenderBuilderContent } from "@/components/builder";
@@ -39,3 +40,10 @@ export default async function Page(props: PageProps) {
     </>
   );
 }
+
+// "use client";
+// import Home from "../links/page";
+
+// export default function HomePage() {
+//   return <Home />;
+// }
