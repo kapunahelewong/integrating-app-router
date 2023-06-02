@@ -1,5 +1,5 @@
-// For PAGES, goes in src/app/[[...page]/page.tsx]
-
+// For PAGES and SECTIONS, goes in src/app/[[...page]/page.tsx]
+// For SECTIONS, just change the model to "announcement-bar"
 import { builder } from "@builder.io/sdk";
 import Head from "next/head";
 import { RenderBuilderContent } from "@/components/builder";
